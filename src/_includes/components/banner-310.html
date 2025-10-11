@@ -1,0 +1,30 @@
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-310">
+    <div class="cs-container">
+        {% if eleventyNavigation and eleventyNavigation.key %}
+            <span class="cs-int-title">{{eleventyNavigation.key}}</span>
+            <div class="cs-breadcrumbs">
+                <a href="/" class="cs-link">Home</a>
+                <a href="{{ page.url }}" class="cs-link cs-active">{{eleventyNavigation.key}}</a>
+            </div>
+        {% else %}
+            <!-- Fallback for pages without eleventyNavigation -->
+            <span class="cs-int-title">{{ title | default(page.fileSlug) }}</span>
+            <div class="cs-breadcrumbs">
+                <a href="/" class="cs-link">Home</a>
+                <a href="{{ page.url }}" class="cs-link cs-active">{{ title | default(page.fileSlug) }}</a>
+            </div>
+        {% endif %}
+    </div>
+    <!--Background Image-->
+   <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/banner-m.webp">
+        <source media="(min-width: 601px)" srcset="/assets/images/banner.webp">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/banner.jpg" alt="woman getting a massage" width="1920" height="375">
+    </picture>
+</div>
+                                
+                                

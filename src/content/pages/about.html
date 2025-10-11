@@ -1,7 +1,8 @@
 ---
-title: 'About | Code Stitch Web Designs'
-description: 'Meta description for the page'
+title: 'About | Thai To Relax'
+description: "Meet Jessica, expert Thai massage therapist with 25+ years experience from Four Seasons Bangkok. Serving Leeds with authentic therapeutic massage since 2010."
 permalink: 'about/'
+preloadImg: '/assets/images/banner.webp'
 eleventyNavigation:
     key: About Us
     order: 200
@@ -11,7 +12,6 @@ eleventyNavigation:
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/about.css">
-    <link rel="preload" as="image" href="{% getUrl "/assets/images/banner.jpg" | resize({width: 2560, height: 1136}) | avif %}">
 {% endblock %}
 
 {% block body %}
@@ -38,20 +38,23 @@ eleventyNavigation:
             <img src="{% getUrl "/assets/images/about.jpg" | resize({width: 1260, height: 1550}) | jpeg %}" alt="massage" width="630" height="775" loading="lazy" decoding="async" aria-hidden="true">
         </picture>
         <div class="cs-content">
-            <span class="cs-topper">Featured Service</span>
-            <h2 class="cs-title">Occupational and Speech Therapy</h2>
+            <span class="cs-topper">Our Story</span>
+            <h2 class="cs-title">Authentic Thai Healing Expertise</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta officiis praesentium necessitatibus tempora unde quasi porro nemo aliquam voluptatem quaerat hic, doloremque impedit perferendis labore, ea libero voluptas laudantium? 
+                Thai To Relax was founded by Jessica, who brings over 25 years of expertise in traditional Thai therapeutic massage. Originally from Bangkok, Jessica spent 10 years as a spa therapist at the prestigious Four Seasons Hotel before owning and operating a spa at Baiyoke Hotel for 5 years. In 2000, she relocated to the UK with a mission to bring genuine Thai healing techniques to those seeking real therapeutic outcomes.
             </p>
             <p class="cs-text">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Since 2010, Jessica has been running Thai to Relax in Ossett, Wakefield, building a loyal following over 15 years. Unlike typical relaxation spas, our focus is on treating genuine medical conditions—from chronic pain and sciatica to sports injuries and frozen shoulder. Specialising in traditional sen work (pressure point therapy), Jessica has helped countless clients, including rugby and football players, achieve recovery and peak performance. Our clients have cancelled medical procedures in favour of regular treatments with us, a testament to the effectiveness of authentic Thai therapeutic techniques.
+            </p>
+            <p class="cs-text">
+                Now expanding to Leeds city centre, we're bringing this trusted expertise to a wider community. Every therapist on our team has a minimum of 5 years' experience, carefully selected by Jessica to maintain our high standards. We maintain five-star cleanliness standards and a professional, no-nonsense approach to therapeutic care. Our track record speaks for itself—we deliver measurable results that help people return to the activities they love.
             </p>
             <div id="quote-827">
                 <span class="cs-quote-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+                    My passion is helping people recover through authentic Thai healing techniques.
                 </span>
-                <span class="cs-name">Justin Time</span>
-                <span class="cs-job">CEO-Founder</span>
+                <span class="cs-name">Jessica</span>
+                <span class="cs-job">Owner</span>
                 <img class="cs-quote-icon" loading="lazy" decoding="async" src="/assets/svgs/quote-white.svg" alt="quote icon" width="136" height="77">
             </div>                        
         </div>

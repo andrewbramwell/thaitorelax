@@ -1,24 +1,25 @@
 module.exports = {
-    "name": "Splendid Sites Web Designs",
-    "email": "help@splendidsites.com",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
-    "openingHours": "Mon-Sun: 9am-9pm",
-    "onlineBooking": "https://www.facebook.com/",
+    "name": "Thai To Relax",
+    "email": "thaitorelaxleeds@gmail.com",
+    "phoneForTel": "+447921223513",
+    "phoneFormatted": "07921 223513",
+    "openingHours": "Mon-Sun: 10am-6pm",
+    "onlineBooking": "https://thaitorelaxleeds.setmore.com/",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "country": "US",
-        "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
+        "lineOne": "Advance Hair Studio",
+        "lineTwo": "Carlton Tower",
+        "lineThree": "34 St Paul's Street",
+        "city": "Leeds",
+        "state": "",
+        "zip": "LS1 2QB",
+        "country": "United Kingdom",
+        "mapLink": "https://maps.app.goo.gl/zX8tZxbGTxuzKWxc7"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/",
-        "googleReview": "",
+        "facebook": "",
+        "instagram": "",
+        "googleReview": "https://g.page/r/CTFT40-oEVrlEBM/review",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    "domain": "https://thaitorelaxleeds.co.uk"
 };

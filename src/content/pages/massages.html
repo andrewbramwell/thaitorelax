@@ -1,6 +1,7 @@
 ---
-title: 'Massages | Code Stitch Web Designs'
-description: 'Meta description for the page'
+title: 'Massages | Thai To Relax'
+description: "Traditional Thai massage treatments in Leeds. From relaxation to sports therapy & deep tissue. Expert therapists, authentic techniques, proven therapeutic results."
+preloadImg: '/assets/images/banner.webp'
 permalink: 'massages/'
 eleventyNavigation:
     key: Massages
@@ -11,11 +12,10 @@ eleventyNavigation:
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/massages.css">
-    <link rel="preload" as="image" href="{% getUrl "/assets/images/banner.jpg" | resize({width: 2560, height: 1136}) | avif %}">
 {% endblock %}
 
 {% block body %}
 
-{% include 'components/pricing-menu.html' %}                                                  
+{% include 'components/pricing-sbs.html' %}                                                  
 
 {% endblock %}

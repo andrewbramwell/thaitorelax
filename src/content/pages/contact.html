@@ -1,18 +1,17 @@
 ---
-title: 'Contact | Code Stitch Web Designs'
-description: 'Meta description for the page'
+title: 'Contact | Thai To Relax'
+description: "Contact Thai To Relax Leeds for authentic Thai massage therapy. Find our location, opening hours & get in touch with our experienced team in Leeds city centre."
 permalink: 'contact/'
+preloadImg: '/assets/images/banner.webp'
 eleventyNavigation:
     key: Contact Us
     order: 600
-    hideOnDesktop: true
 ---
 
 {% extends "layouts/base.html" %}
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/contact.css">
-    <link rel="preload" as="image" href="{% getUrl "/assets/images/banner.jpg" | resize({width: 2560, height: 1136}) | avif %}">
 {% endblock %}
 
 {% block body %}
@@ -25,9 +24,9 @@ eleventyNavigation:
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Contact Us</span>
-            <h2 class="cs-title">Get in Touch</h2>
+            <h2 class="cs-title">Get In Touch With Thai To Relax</h2>
             <p class="cs-text">
-                We are a team of passionate and creative individuals dedicated to crafting captivating designs that leave a lasting impression.
+                Whether you need directions, have enquiries about our treatments, or want to speak with our team, all our contact details are provided below for your convenience.
             </p>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -56,7 +55,7 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Address</span>
-                        <a href="{{client.address.mapLink}}" target="_blank" rel="noopener" class="cs-link">{{client.address.lineOne}}, {{client.address.city}}, {{client.address.zip}}</a>
+                        <a href="{{client.address.mapLink}}" target="_blank" rel="noopener" class="cs-link">{{client.address.lineOne}}, {{client.address.lineTwo}}, {{client.address.lineThree}}, {{client.address.city}} {{client.address.zip}}</a>
                     </div>
                 </li>
             </ul>
@@ -91,7 +90,7 @@ eleventyNavigation:
 
 <section id="map-1403">
     <!--Replace this embed code with the google maps embed code of your clients location. To do so, google your clients business, click on the map picture that in the profile card to go to the map location. That will take you to Google maps, then find the share button in the left panel and click on it. You will be given a link to share and a button to copy link, ignore that! AAbove that is a tab that says "Embed a map", click that instead and it will bring up the embed code for you clients location in maps.  Click the button to copy the html and paste it in place of this entire iframe tag. Do not keep the original iframe. Replace it with the new one you got from google maps, unless you want to display a map of Wyoming, then you can keep this iframe. -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9508.417168024294!2d-2.9608174!3d53.4308435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b21654b02538b%3A0x84576a57e21973ff!2sAnfield!5e0!3m2!1sen!2sth!4v1731648539970!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.483835370191!2d-1.5540694!3d53.79867379999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795f319f4509dd%3A0xe55a11a84fe35331!2sThai%20To%20Relax%20Leeds!5e0!3m2!1sen!2suk!4v1760190060337!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
                                 
 {% endblock %}

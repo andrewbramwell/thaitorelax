@@ -1,0 +1,71 @@
+---
+title: 'Thai Oil Relaxation Massage'
+description: "Thai oil relaxation massage in Leeds with dok mok essential oils. Gentle to medium pressure using traditional techniques to release tension & restore balance."
+preloadImg: '/assets/images/banner.webp'
+permalink: 'oil-massage/'
+eleventyNavigation:
+
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/service-page.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                <!--Mobile Image -->
+                <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 874, height: 1072}) | avif %}" type="image/avif">
+                <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 874, height: 1072}) | webp %}" type="image/webp">
+                <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 874, height: 1072}) | jpeg %}" type="image/jpeg">
+                <!--Tablet Image -->
+                <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 874, height: 1072}) | avif %}" type="image/avif">
+                <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 874, height: 1072}) | webp %}" type="image/webp">
+                <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 874, height: 1072}) | jpeg %}" type="image/jpeg">
+                <!--Desktop Image -->
+                <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 1084, height: 1334}) | avif %}" type="image/avif">
+                <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 1084, height: 1334}) | webp %}" type="image/webp">
+                <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/1.jpg" | resize({width: 1084, height: 1334}) | jpeg %}" type="image/jpeg">
+                <img src="{% getUrl "/assets/images/1.jpg" | resize({width: 1084, height: 1334}) | jpeg %}" alt="thai massage" width="542" height="728" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title">Experience <span class="cs-color">Thai Oil Relaxation Massage</span> in Leeds</h1>
+            <p>Welcome to Thai To Relax! Immerse yourself in our signature relaxation massage featuring warm dok mok essential oils from Wrightia religiosa. This soothing treatment combines the healing properties of traditional Thai botanicals with gentle to medium pressure techniques to melt away tension and restore natural balance.</p>
+            <p>In your session, our skilled therapist applies warm dok mok essential oil whilst using traditional Thai massage techniques with gentle to medium pressure. Performed on a comfortable massage bed, this treatment focuses on releasing everyday tension, promoting deep relaxation, and restoring harmony to body and mind. The therapeutic properties of dok mok oil enhance the massage experience, leaving you feeling refreshed and balanced.</p>
+            <p>Our Thai Oil Relaxation Massage is perfect for those seeking a peaceful escape from daily stresses, first-time massage guests, or anyone looking to unwind without addressing specific problem areas. This treatment provides a gentle introduction to authentic Thai massage whilst delivering genuine therapeutic benefits. Whether you're seeking stress relief, general relaxation, or simply time for yourself, this signature massage offers a tranquil and restorative experience.</p>
+            <h3>Discover the Thai To Relax Difference</h3>
+            <ul>
+                <li>
+                    <strong>Signature Dok Mok Oil:</strong> Experience the traditional healing properties of dok mok (Wrightia religiosa) essential oils, used for generations in Thai therapeutic practices.
+                </li>
+                <li>
+                    <strong>Balanced Pressure:</strong> Gentle to medium pressure provides effective tension release without intensity, making this ideal for those new to massage or seeking pure relaxation.
+                </li>
+                <li>
+                    <strong>Traditional Thai Techniques:</strong> Authentic massage methods passed down through generations, applied with expertise developed over 25+ years in luxury spa environments.
+                </li>
+                <li>
+                    <strong>Restorative Experience:</strong> This treatment focuses on restoring natural balance, promoting relaxation, and providing a peaceful escape from everyday stresses and demands.
+                </li>
+                <li>
+                    <strong>Comfortable Setting:</strong> Performed on a massage bed in our immaculate treatment rooms, maintained to five-star cleanliness standards for your comfort and wellbeing.
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

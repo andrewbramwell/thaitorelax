@@ -79,9 +79,6 @@
 }
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
-  body.dark-mode #sbs-867 .cs-topper {
-    color: var(--primaryLight);
-  }
   body.dark-mode #sbs-867 .cs-title,
   body.dark-mode #sbs-867 .cs-text {
     color: var(--bodyTextColorWhite);
@@ -102,7 +99,6 @@
   /* 16px - 32px */
   padding: clamp(1rem, 3vw, 2rem);
   background-color: #f7f7f7;
-  border-radius: 1rem;
   position: relative;
 }
 #quote-827 .cs-quote-text {
