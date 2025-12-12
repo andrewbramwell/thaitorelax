@@ -3,6 +3,8 @@ module.exports = {
     "email": "thaitorelaxleeds@gmail.com",
     "phoneForTel": "+447921223513",
     "phoneFormatted": "07921 223513",
+    "mobileForTel": "+447936417602",
+    "mobileFormatted": "07936 417602",
     "openingHours": "Mon-Sun: 10am-6pm",
     "onlineBooking": "https://thaitorelaxleeds.setmore.com/",
     "address": {
